@@ -2144,12 +2144,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <wire x1="71.12" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="RS" gate="G$1" pin="2"/>
-<wire x1="-7.62" y1="68.58" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -2189,6 +2183,19 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="96.52" x2="-5.08" y2="81.28" width="0.1524" layer="91"/>
 <label x="-5.08" y="93.98" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="-5.08" y1="101.6" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
+<label x="7.62" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RS" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="68.58" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="76.2" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
+<label x="-7.62" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
