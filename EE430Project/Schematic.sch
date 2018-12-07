@@ -2135,13 +2135,19 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <junction x="43.18" y="58.42"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="VOUT" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="RL" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="78.74" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
+<label x="83.82" y="78.74" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="-5.08" y1="104.14" x2="10.16" y2="104.14" width="0.1524" layer="91"/>
+<label x="10.16" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
